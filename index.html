@@ -1,13 +1,30 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<header> <link rel="stylesheet" type="text/css" href="css/slider.css"> </header>
+<header> 
+<link rel="stylesheet" type="text/css" href="css/slider.css">
+
+</header>
 
 <body>
 
+<div class="wrapper">
 <div id="slider">
+	<img id="1" src="images/1.png">
+	<img id="2" src="images/2.png">
+	<img id="3" src="images/3.png">
+
 </div>
 
+
+	<a  href="#" class="left" onclick="prev(); return false;">Previous</a>
+	<a href="#" class="right" onclick="next(); return false;">Next</a>
+	</div>
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="js/slider.js"></script>
 </body>
 
 </html>
